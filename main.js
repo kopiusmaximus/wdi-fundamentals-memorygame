@@ -59,6 +59,7 @@ function isTwoCards() {
   }
 }
 
+// call the create board functon to start the game
 createBoard();
 
 

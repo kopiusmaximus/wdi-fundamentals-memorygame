@@ -1,13 +1,20 @@
+body{
+	font-family: 'Questrial', sans-serif;
+}
+
 header{
 	text-align: center;
 }
 
 h1 {
 	color: rgb(2, 132, 130);
+	text-align: center;
 }
 
 h2 {
-	color: #ffd700;
+	color: #ffad00;
+	text-align: center;
+
 }
 
 p{
@@ -20,6 +27,7 @@ nav{
 
 nav a{
 	background-color: #ffbf00;
+	font-size: 1.5em;
 	text-decoration: none;
 	color: white;
 	padding: 35px;
@@ -41,9 +49,10 @@ a:hover {
 }
 
 .board {
-	display: inline-block;
+	display: block;
 	height: 50%;
 	width: 50%;
+	margin: 0 auto;
 }
 
 .card {
@@ -56,12 +65,13 @@ a:hover {
 	margin: 8%;
 }
 
-#name {
-	color: #ff0000;
+.pop {
+	color: #ffbf00;
 }
 
 footer {
 	background-color: #808080;
 	text-align: center;
 	clear: both;
+	padding: 20px;
 }
