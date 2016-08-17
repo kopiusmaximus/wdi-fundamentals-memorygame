@@ -49,7 +49,7 @@ a:hover {
 .card {
 	height: 200px;
 	width: 150px;
-	background: yellow;
+	background: url(../card_back.png);
 	border: 1px solid black;
 	border-radius: 10px;
 	display: inline-block;
